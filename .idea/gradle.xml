@@ -8,13 +8,13 @@
         <option name="modules">
           <set>
             <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils" />
-            <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils/app" />
+            <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils/fastroid-utils" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils" />
-            <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils/app" />
+            <option value="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid-utils/fastroid-utils" />
           </set>
         </option>
       </GradleProjectSettings>
