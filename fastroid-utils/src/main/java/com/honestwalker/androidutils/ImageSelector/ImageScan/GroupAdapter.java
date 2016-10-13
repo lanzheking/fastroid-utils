@@ -1,7 +1,5 @@
 package com.honestwalker.androidutils.ImageSelector.ImageScan;
 
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Point;
@@ -14,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.honestwalker.androidutils.R;
+
+import java.util.List;
 
 
 public class GroupAdapter extends BaseAdapter{

@@ -1,12 +1,5 @@
 package com.honestwalker.androidutils.ImageSelector.ImageScan;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
@@ -30,6 +23,13 @@ import android.widget.Toast;
 
 import com.honestwalker.androidutils.ImageSelector.ImageSelector;
 import com.honestwalker.androidutils.R;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @blog http://blog.csdn.net/xiaanming

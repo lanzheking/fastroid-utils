@@ -4,13 +4,10 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 
-import com.honestwalker.androidutils.IO.CacheDirUtil;
 import com.honestwalker.androidutils.IO.LogCat;
 import com.honestwalker.androidutils.R;
 import com.honestwalker.androidutils.equipment.DisplayUtil;
-import com.honestwalker.androidutils.equipment.SDCardUtil;
 import com.honestwalker.androidutils.views.DialogPage;
-import com.lidroid.xutils.view.annotation.ViewInject;
 
 import java.util.ArrayList;
 
@@ -106,7 +103,6 @@ public class ImageSelectorDialogPage extends DialogPage {
                 if (listener != null) {
                     listener.onComplete();
                 }
-                destroy();
             }
         });
     }
@@ -121,9 +117,18 @@ public class ImageSelectorDialogPage extends DialogPage {
         @Override
         public void onClick(View v) {
             if(v.getId() == R.id.topBTN) {
-                imageSelector.openCamera(needCut, outputCachePath, maxWidth , aspectX, aspectY);
+                if(needCut) {
+                    imageSelector.openCameraAndCrop(outputCachePath, maxWidth , aspectX, aspectY);
+                } else {
+                    imageSelector.openCamera(outputCachePath, maxWidth , aspectX, aspectY);
+                }
+
             } else if(v.getId() == R.id.bottomBTN) {
-                imageSelector.selectImage(needCut , outputCachePath , aspectX , aspectY);
+                if(needCut) {
+                    imageSelector.selectImageAndCrop(outputCachePath , aspectX , aspectY);
+                } else {
+                    imageSelector.selectImage();
+                }
             }
             dismiss();
         }
@@ -131,10 +136,6 @@ public class ImageSelectorDialogPage extends DialogPage {
 
     public void setImageSelectorListener(ImageSelectListener listener) {
         this.listener = listener;
-    }
-
-    public void destroy() {
-        imageSelector.destroy(context);
     }
 
 }

@@ -1,12 +1,5 @@
 package com.honestwalker.androidutils.ImageSelector;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.database.Cursor;
@@ -17,6 +10,13 @@ import android.os.Handler;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.Toast;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 public class MultyImageSelectorActivity extends Activity {
 	

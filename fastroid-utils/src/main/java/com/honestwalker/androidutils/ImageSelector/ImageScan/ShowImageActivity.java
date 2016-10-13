@@ -1,20 +1,20 @@
 package com.honestwalker.androidutils.ImageSelector.ImageScan;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.view.Display;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
 import android.widget.GridView;
 
 import com.honestwalker.androidutils.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ShowImageActivity extends Activity {
 

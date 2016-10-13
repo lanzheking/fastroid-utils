@@ -1,11 +1,5 @@
 package com.honestwalker.androidutils.ImageSelector.ImageScan;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
@@ -24,9 +18,14 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import com.honestwalker.androidutils.ImageSelector.ImageScan.MyImageView.OnMeasureListener;
 import com.honestwalker.androidutils.R;
 
-import com.honestwalker.androidutils.ImageSelector.ImageScan.MyImageView.OnMeasureListener;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 public class ChildAdapter extends BaseAdapter {
 	

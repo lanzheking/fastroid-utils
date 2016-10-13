@@ -5,7 +5,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
 
-import com.honestwalker.androidutils.BitmapUtil;
 import com.honestwalker.androidutils.ImageUtil;
 import com.honestwalker.androidutils.exception.ExceptionUtil;
 

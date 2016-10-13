@@ -1,1 +1,1 @@
-include ':fastroid-utils'
+include ':fastroid-utils', ':myapplication'
